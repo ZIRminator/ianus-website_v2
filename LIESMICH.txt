@@ -1,0 +1,45 @@
+ianus IT – Website (Version 3: dunkle Banner)
+===============================================
+
+So ist die Seite aufgebaut
+--------------------------
+- Jede Seite ist eine eigene HTML-Datei (index.html = Startseite).
+- Das Aussehen steht für alle Seiten in css/site.css.
+  Farben und Schriftgrößen ganz oben unter ":root".
+- js/site.js macht nur das Menü, das Leistungen-Untermenü,
+  die geschützten E-Mail-Adressen und den Bot-Schutz im Formular.
+- Die Schrift (Barlow Semi Condensed) liegt im Ordner fonts.
+  Es gibt keine Verbindung zu Google.
+
+Texte ändern
+------------
+Die HTML-Datei öffnen, Text suchen, ändern, speichern.
+Kommentare im Code (<!-- ... -->) erklären die einzelnen Abschnitte.
+Kopfzeile und Fußzeile stehen in jeder Datei. Wer dort etwas ändert,
+muss es in allen Dateien gleich ändern (Suchen & Ersetzen über alle Dateien).
+
+Bilder austauschen
+------------------
+Eigene Fotos unter demselben Namen in den Ordner img legen:
+- platzhalter-rack.jpg       Querformat, mind. 1600 Pixel breit (Banner Startseite und Über uns)
+- platzhalter-planen.jpg     Querformat 4:3, ca. 1200 x 900
+- platzhalter-betreiben.jpg  Querformat 4:3
+- platzhalter-absichern.jpg  Querformat 4:3
+- platzhalter-kabel.jpg      Querformat (Banner Referenzen)
+- platzhalter-karriere.jpg   Querformat 4:3
+In den Karten werden die Fotos automatisch in ein dunkles Blaugrau eingefärbt.
+In den dunklen Bannern oben werden sie automatisch grau und dunkel abgetönt,
+links läuft das Foto ins Dunkle aus, damit die Schrift gut lesbar bleibt.
+
+Kontaktformular
+---------------
+Das Formular schickt an kontakt.php. Dort stehen Empfänger und Absender.
+Es funktioniert nur auf einem Server mit PHP (nicht auf GitHub Pages).
+Danach landet man auf danke.html.
+
+Noch offen
+----------
+- downloads/ianusitsupport.zip von der alten Website übernehmen.
+- Zertifizierungen klären (Startseite: "Zertifizierte Spezialisten für").
+- Paulaner-Logo in besserer Auflösung.
+- Beim eigenen Hosting: Abschnitt "Hosting" in datenschutz.html anpassen.

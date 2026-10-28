@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add('js')</script>
+
+  <!-- ===== Google: Titel und Beschreibung im Suchergebnis ===== -->
+  <title>ianus IT | IT-Infrastruktur und IT-Sicherheit bei München</title>
+  <meta name="description" content="IT-Dienstleister aus Wolfratshausen: Server, Storage, Backup, VMware und Cloud für Mittelstand, Konzerne und Behörden. Seit 2007.">
+  <link rel="canonical" href="https://www.ianus-it.de/">
+
+  <!-- Vorschau beim Teilen (LinkedIn, Messenger usw.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ianus IT">
+  <meta property="og:title" content="ianus IT | IT-Infrastruktur und IT-Sicherheit bei München">
+  <meta property="og:description" content="IT-Dienstleister aus Wolfratshausen: Server, Storage, Backup, VMware und Cloud für Mittelstand, Konzerne und Behörden. Seit 2007.">
+  <meta property="og:url" content="https://www.ianus-it.de/">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <!-- Schrift liegt im Ordner fonts auf dem eigenen Server, keine Verbindung zu Google -->
+  <link rel="preload" href="fonts/barlow-semi-condensed-semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+  <!-- Firmendaten für Google (strukturierte Daten) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "ianus IT GmbH",
+    "url": "https://www.ianus-it.de/",
+    "logo": "https://www.ianus-it.de/img/ianus-logo.svg",
+    "telephone": "+49 89 38153700",
+    "foundingDate": "2007",
+    "founder": { "@type": "Person", "name": "Arno Kretschmer" },
+    "address": { "@type": "PostalAddress", "streetAddress": "Untermarkt 7", "postalCode": "82515", "addressLocality": "Wolfratshausen", "addressCountry": "DE" },
+    "areaServed": "DE",
+    "description": "IT-Dienstleister für Rechenzentrums-Infrastruktur, Storage, Backup, Virtualisierung, Cloud und IT-Sicherheit."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <!-- Farbfilter für Fotos: Jedes Foto in den Karten wird automatisch in ein dunkles
+       Blaugrau eingefärbt, passend zu den Bannern. Eigene Fotos einfach unter
+       demselben Dateinamen in den Ordner img legen. -->
+  <svg class="filters" aria-hidden="true" focusable="false">
+    <filter id="ton-anthrazit" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0.149 0.42 0.86"/>
+        <feFuncG type="table" tableValues="0.176 0.45 0.88"/>
+        <feFuncB type="table" tableValues="0.227 0.52 0.91"/>
+      </feComponentTransfer>
+    </filter>
+  </svg>
+
+  <!-- ===================== KOPFZEILE ===================== -->
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html" aria-label="ianus IT – zur Startseite">
+        <img src="img/ianus-logo.svg" alt="ianus IT – The Service Company" width="150" height="44">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="hauptnavigation">
+        <svg class="menu-toggle__icon" viewBox="0 0 18 12" aria-hidden="true" focusable="false"><path d="M0 1h18M0 6h18M0 11h18" stroke="currentColor" stroke-width="2"/></svg>
+        Menü
+      </button>
+
+      <nav class="nav" id="hauptnavigation" aria-label="Hauptnavigation">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--sub">
+            <button class="nav__sub-toggle" type="button" aria-expanded="false" aria-controls="leistungen-menu">Leistungen <svg class="chevron" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <ul class="nav__sub" id="leistungen-menu">
+              <li><a href="index.html#leistungen">Alle Leistungen</a></li>
+              <li><a href="planen-und-umsetzen.html">Planen &amp; Umsetzen</a></li>
+              <li><a href="betreiben-und-unterstuetzen.html">Betreiben &amp; Unterstützen</a></li>
+              <li><a href="absichern.html">Absichern</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="referenzen.html">Referenzen</a></li>
+          <li class="nav__item"><a class="nav__link" href="ueber-uns.html">Über uns</a></li>
+          <li class="nav__item"><a class="nav__link" href="karriere.html">Karriere</a></li>
+          <li class="nav__item"><a class="nav__link" href="support.html">Support</a></li>
+          <li class="nav__item"><a class="nav__link" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+
+    <!-- ===================== 1. EINSTIEG =====================
+         Dunkles Banner mit Foto aus dem Rechenzentrum.
+         Eigenes Foto: img/platzhalter-rack.jpg ersetzen (am besten Querformat, mind. 1600 Pixel breit).
+         Das Foto wird automatisch grau und dunkel abgetönt, damit die Schrift lesbar bleibt. -->
+    <section class="banner banner--home on-ink">
+      <img class="banner__photo" src="img/platzhalter-rack.jpg" alt="" width="1600" height="1000" fetchpriority="high">
+      <div class="wrap banner__inner">
+        <h1>Wir halten Ihre IT&#8209;Infrastruktur am&nbsp;Laufen.</h1>
+        <p class="lead">Server, Storage, Backup, Virtualisierung und Cloud – geplant, umgesetzt und betreut für die IT-Abteilungen von Mittelstand, Konzernen und Behörden.</p>
+        <div class="hero__actions">
+          <a class="button" href="#leistungen">Leistungen ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. LEISTUNGEN ===================== -->
+    <section class="section section--white" id="leistungen" aria-labelledby="leistungen-titel">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="leistungen-titel">Was wir tun</h2>
+          <p class="lead">Von der Planung über den täglichen Betrieb bis zur Absicherung, als Verstärkung Ihrer IT-Abteilung.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <svg class="cut-image" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><image href="img/platzhalter-planen.jpg" width="1200" height="900" preserveAspectRatio="xMidYMid slice" filter="url(#ton-anthrazit)"/></svg>
+            <div class="card__body">
+              <h3 class="card__title"><a href="planen-und-umsetzen.html">Planen &amp; Umsetzen</a></h3>
+              <p class="card__text">Von der Bestandsaufnahme über die Produktauswahl bis zur Übergabe in den Betrieb.</p>
+              <span class="card__more" aria-hidden="true">Mehr erfahren</span>
+            </div>
+          </article>
+          <article class="card">
+            <svg class="cut-image" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><image href="img/platzhalter-betreiben.jpg" width="1200" height="900" preserveAspectRatio="xMidYMid slice" filter="url(#ton-anthrazit)"/></svg>
+            <div class="card__body">
+              <h3 class="card__title"><a href="betreiben-und-unterstuetzen.html">Betreiben &amp; Unterstützen</a></h3>
+              <p class="card__text">Managed Services, Monitoring und Support nach SLA – oder ein Spezialist direkt in Ihrem Team.</p>
+              <span class="card__more" aria-hidden="true">Mehr erfahren</span>
+            </div>
+          </article>
+          <article class="card">
+            <svg class="cut-image" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><image href="img/platzhalter-absichern.jpg" width="1200" height="900" preserveAspectRatio="xMidYMid slice" filter="url(#ton-anthrazit)"/></svg>
+            <div class="card__body">
+              <h3 class="card__title"><a href="absichern.html">Absichern</a></h3>
+              <p class="card__text">Backup gegen Ransomware, sichere Active-Directory- und VMware-Umgebungen und Hilfe, wenn doch etwas passiert.</p>
+              <span class="card__more" aria-hidden="true">Mehr erfahren</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. TECHNIK =====================
+         Dunkles Band. Die Liste sieht aus wie ein Rack: jede Zeile eine Höheneinheit mit Status-Lämpchen. -->
+    <section class="section band-ink on-ink" aria-labelledby="technik-titel">
+      <div class="wrap split">
+        <div class="section-head">
+          <h2 id="technik-titel">Zertifizierte Spezialisten für</h2>
+          <p class="lead">Die Technik, auf der die Infrastruktur unserer Kunden läuft.</p>
+        </div>
+        <ul class="rack">
+          <li><span class="rack__led" aria-hidden="true"></span><span class="rack__name">VMware</span><span class="rack__role">Virtualisierung</span></li>
+          <li><span class="rack__led" aria-hidden="true"></span><span class="rack__name">NetApp und Pure Storage</span><span class="rack__role">Storage</span></li>
+          <li><span class="rack__led" aria-hidden="true"></span><span class="rack__name">Dell und HP</span><span class="rack__role">Server und Storage</span></li>
+          <li><span class="rack__led" aria-hidden="true"></span><span class="rack__name">Cisco</span><span class="rack__role">Netzwerk</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== 4. ÜBER UNS ===================== -->
+    <section class="section" aria-labelledby="ueber-titel">
+      <div class="wrap split">
+        <h2 id="ueber-titel">Seit 2007 an der Seite unserer Kunden</h2>
+        <div>
+          <p class="about__text">Arno Kretschmer hat ianus IT 2007 gegründet, nach Jahren als IT-Spezialist in einem Großunternehmen. Heute führt er die Firma gemeinsam mit Markus Schwinghammer. Unser Team besteht aus erfahrenen Spezialisten, viele davon seit Jahren dabei.</p>
+          <dl class="people">
+            <div><dt>Arno Kretschmer</dt><dd>Gründer und Geschäftsführer</dd></div>
+            <div><dt>Markus Schwinghammer</dt><dd>Geschäftsführer</dd></div>
+          </dl>
+          <p><a class="link" href="ueber-uns.html">Mehr über uns</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. KUNDEN =====================
+         Alle Kunden gleich groß. Logos nur mit Freigabe des Kunden. -->
+    <section class="section section--white" aria-labelledby="kunden-titel">
+      <div class="wrap">
+        <h2 id="kunden-titel">Für wen wir arbeiten</h2>
+        <ul class="clients">
+          <li class="client">
+            <div class="client__mark"><img class="logo-traunstein" src="img/kunde-landratsamt-traunstein-dunkel.svg" alt="" width="155" height="48"></div>
+            <div class="client__text">
+              <p class="client__name">Landratsamt Traunstein</p>
+              <p class="client__task">Datacenter-Management</p>
+            </div>
+          </li>
+          <li class="client">
+            <div class="client__mark"><img class="logo-paulaner" src="img/kunde-paulaner.png" alt="" width="56" height="56"></div>
+            <div class="client__text">
+              <p class="client__name">Paulaner Brauerei Gruppe</p>
+              <p class="client__task">Storage und VMware im Betrieb</p>
+            </div>
+          </li>
+          <li class="client">
+            <div class="client__mark"><svg class="client__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M24 6c0 0-12 13.5-12 23a12 12 0 0 0 24 0C36 19.5 24 6 24 6z"/></svg></div>
+            <div class="client__text">
+              <p class="client__name">Verband der Wasserwirtschaft, NRW</p>
+              <p class="client__task">Unterstützung in allen Betriebsphasen</p>
+            </div>
+          </li>
+          <li class="client">
+            <div class="client__mark"><svg class="client__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M6 41V23l10 6v-6l10 6v-6l10 6V9h6v32z"/></svg></div>
+            <div class="client__text">
+              <p class="client__name">Internationaler Maschinenbau-Konzern</p>
+              <p class="client__task">Storage an mehreren Standorten</p>
+            </div>
+          </li>
+          <li class="client">
+            <div class="client__mark"><svg class="client__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="6" y="9" width="36" height="25" rx="2"/><path d="M18 40h12M24 34v6"/><path d="M21 16.5v10l8-5z"/></svg></div>
+            <div class="client__text">
+              <p class="client__name">Anbieter von Lernsoftware</p>
+              <p class="client__task">Aufbau und Weiterentwicklung der IT</p>
+            </div>
+          </li>
+        </ul>
+        <p><a class="link" href="referenzen.html">Referenzen ansehen</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FUSSZEILE ===================== -->
+  <footer class="site-footer">
+    <!-- Kontakt am Ende jeder Seite, als dunkles Band -->
+    <div class="contact-band on-ink">
+      <div class="wrap footer-contact">
+        <h2>Sprechen wir über Ihre IT.</h2>
+        <ul>
+          <li>
+            <span class="footer-contact__label">Telefon</span>
+            <a class="footer-contact__value" href="tel:+498938153700">089 38 153 700</a>
+          </li>
+          <li>
+            <span class="footer-contact__label">Schreiben</span>
+            <a class="footer-contact__value" href="kontakt.html">Zum Kontaktformular</a>
+          </li>
+          <li>
+            <span class="footer-contact__label">Besuchen</span>
+            <address class="footer-contact__value">Untermarkt 7<br>82515 Wolfratshausen</address>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-main">
+      <div>
+        <img src="img/ianus-logo.svg" alt="ianus IT" width="140" height="41">
+        <address>ianus IT GmbH<br>Untermarkt 7, 82515 Wolfratshausen<br>089 38 153 700</address>
+      </div>
+      <nav aria-labelledby="f-leistungen">
+        <h2 id="f-leistungen">Leistungen</h2>
+        <ul>
+          <li><a href="planen-und-umsetzen.html">Planen &amp; Umsetzen</a></li>
+          <li><a href="betreiben-und-unterstuetzen.html">Betreiben &amp; Unterstützen</a></li>
+          <li><a href="absichern.html">Absichern</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="f-firma">
+        <h2 id="f-firma">Unternehmen</h2>
+        <ul>
+          <li><a href="referenzen.html">Referenzen</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="karriere.html">Karriere</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="f-service">
+        <h2 id="f-service">Service</h2>
+        <ul>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="support.html">Fernwartung</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrap footer-legal">
+      <span>© ianus IT GmbH</span>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </footer>
+
+  <script src="js/site.js" defer></script>
+</body>
+</html>
